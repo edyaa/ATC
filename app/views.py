@@ -22,7 +22,6 @@ class RegisterUserView(CreateView):
     success_msg = 'Пользователь успешно создан'
 
 
-
 class AppLoginView(LoginView):
 
     template_name = 'auth.html'
