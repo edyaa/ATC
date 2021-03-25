@@ -1,7 +1,7 @@
 {% extends 'index.html' %}
     {% block content %}
         <h2 class="mt-4">Страница Регистрации</h2>
-        <div class="col-3">
+        <div class="col-4">
             <form id="add_form" method="post">
                 {% csrf_token %}
                 {{ form }}

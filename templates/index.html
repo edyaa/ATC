@@ -26,6 +26,7 @@
                 <a class="nav-link {% if url_register == request.path %} active {% endif %} ml-5 " href="{{ url_register }}">Зарегистрироваться</a>
             </li>
         </ul>
+    {{ request.user }}
         {% block content %}
             <h2 class="mt-4">Автоматизированный учебный курс</h2>
         {% endblock %}
